@@ -43,8 +43,10 @@
   * Success handler
   */
   function onSaveMeasureSuccess() {
+    $('#measures').trigger("reset");
+
     $('#alerts').html(`
-      <div class="alert alert-success fade show" role="alert">
+      <div class="fixed-top alert alert-success fade show" role="alert">
         Measures Saved!
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
@@ -57,7 +59,7 @@
   */
   function onSaveMeasureError() {
     $('#alerts').html(`
-      <div class="alert alert-danger fade show" role="alert">
+      <div class="fixed-top alert alert-warning fade show" role="alert">
         Operation Failed!
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>

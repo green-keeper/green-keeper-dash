@@ -1,0 +1,25 @@
+{
+  "name": "green-keeper-dash",
+  "version": "1.0.0",
+  "description": "Aquarium dashboard using Google Apps",
+  "license": "GNU GPL",
+  "private": true,
+  "author": "Cadu Goncalves",
+  "keywords": [
+    "Google Apps Script",
+    "Google Data Studio",
+    "Google Docs",
+    "Aquarium",
+    "Dashboard"
+  ],
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-google": "^0.9.1"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint **/*.gs --quiet"
+  },
+  "eslintIgnore": [
+    "**/node_modules/**"
+  ]
+}
