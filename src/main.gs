@@ -103,8 +103,7 @@ const isDate = (value) => {
  * @param {Object} data Measure data
  */
 const storeMeasure = (data) => {
-  // Replace by valid spreadSheet URL
-  let spreadSheet = SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheets/d/CHANGE_IT/edit');
+  let spreadSheet = SpreadsheetApp.openById('Your spreadsheet ID');
   let rowData = [
     formatDate(data.date, '/'),
     formatNumber(data.ph, ','),
