@@ -4,11 +4,11 @@
   "description": "Aquarium dashboard using Google Apps",
   "license": "GNU GPL",
   "private": true,
-  "author": "Cadu Goncalves",
+  "author": "cadu.goncalves",
   "keywords": [
     "Google Apps Script",
     "Google Data Studio",
-    "Google Docs",
+    "Google Spreadsheets",
     "Aquarium",
     "Dashboard"
   ],
