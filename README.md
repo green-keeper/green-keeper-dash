@@ -13,7 +13,7 @@ If so this project is for you, **everything** you need is an active [Google Acco
 
 You must have a **Google Account** connected with following services:
 - [Google App Scripts](https://script.google.com): Host for the lambda functions that register the aquarium measures.
-- [Google Spreadsheets](https://google.com/spreadsheets): Keep our measures data.
+- [Google Spreadsheets](https://docs.google.com/spreadsheets): Keep our measures data.
 - [Google Data Studio](https://datastudio.google.com): Read our measures and show as beautiful dashboard.
 
 ## Install it
@@ -21,7 +21,7 @@ You must have a **Google Account** connected with following services:
 ![](docs/images/how.png)
 
 #### Google Spreadsheet steps
-- Access https://google.com/spreadsheets and create a new blank spreadsheet and save it.
+- Access https://docs.google.com/spreadsheets and create a new blank spreadsheet and save it.
   - Use the spreadsheet URL to copy its ID (we need it later).
     - ID = `https://docs.google.com/spreadsheets/d/COPY_THIS_PART/edit`
 
