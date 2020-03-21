@@ -21,5 +21,5 @@ You must have a **Google Account** connected with following services:
 
 
 ## References
-https://github.com/gsuitedevs/apps-script-samples/tree/master/tasks/simpleTasks
-https://developers.google.com/apps-script/guides/html/best-practices
+* [Apps Script Reference](https://github.com/gsuitedevs/apps-script-samples/tree/master/tasks/simpleTasks)
+* [Apps Script Best Practices](https://developers.google.com/apps-script/guides/html/best-practices)
