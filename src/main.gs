@@ -21,7 +21,7 @@ const saveMeasure = (data) => {
   if (isValidMeasure(data)) {
     storeMeasure(data);
   } else {
-    throw new InvalidMeasureError('Invalid measure fields');
+    throw new Error('Invalid measure fields');
   }
 };
 
@@ -140,13 +140,3 @@ const formatDate = (date, separator) => {
 const formatNumber = (number, decimal) => {
   return number.toString().replace('.', decimal);
 };
-
-/**
- * Invalid measure error
- *
- * @param {String} message Error message
- */
-function InvalidMeasureError(message) {
-  Logger.error(message);
-  this.message = message;
-}

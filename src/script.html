@@ -60,7 +60,7 @@
   function onSaveMeasureError() {
     $('#alerts').html(`
       <div class="fixed-top alert alert-warning fade show" role="alert">
-        Operation Failed!
+        ${arguments[0].message}
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
